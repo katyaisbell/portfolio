@@ -166,9 +166,6 @@ img {
   border-color: var(--color-base);
   color: var(--color-body);
 }
-::placeholder {
-  color: var(--color-brand);
-}
 
 #contact .form-control:focus {
   border-color: var(--color-brand);
