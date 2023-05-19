@@ -104,8 +104,10 @@ img {
   }
 }
 /* CONTENT WRAPPER */
-#content-wrapper {
-  padding-left: var(--sidbar-width);
+@media (min-width: 992px) {
+  #content-wrapper {
+    padding-left: var(--sidbar-width);
+  }
 }
 
 /* BTN */
@@ -178,4 +180,16 @@ img {
 
 #contact input.form-control {
   height: 44px;
+}
+
+/* ICONS */
+.social-icons a {
+  height: 40px;
+  width: 40px;
+  background-color: var(--color-base);
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100px;
+  font-size: 24px;
 }
