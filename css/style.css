@@ -3,8 +3,10 @@
 :root {
   --color-body: #b6cbce;
   --color-heading: #eef3db;
-  --color-base: #2e2c2c;
-  --color-base2: #000000;
+  /* --color-base: #2e2c2c; */
+  --color-base: #2c2a2e;
+  /* --color-base2: #000; */
+  --color-base2: #19181a;
   --color-brand: #e0f780;
   --color-brand2: #deff58;
   --sidbar-width: 240px;
