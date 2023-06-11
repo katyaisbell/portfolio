@@ -164,6 +164,22 @@ img {
   transform: scale(1.1);
 }
 
+
+.items {
+  display: flex;
+  flex-wrap:wrap;
+  padding-bottom: 0.5rem;
+}
+
+.items p {
+  font-size: small;
+  color: var(--color-brand);
+  padding: 0.1rem 0.75rem;
+  margin-right: 0.5rem;
+  border: 1px solid var(--color-brand);
+  border-radius: 5rem;
+}
+
 /* CONTACT */
 #contact .form-control {
   background-color: var(--color-base);
@@ -195,3 +211,84 @@ img {
   border-radius: 100px;
   font-size: 24px;
 }
+
+
+
+/* HOVER */
+/* .hovereffect {
+  width: 100%;
+  height: 100%;
+  float: left;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  cursor: default;
+}
+
+.hovereffect .overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+}
+
+.hovereffect img {
+  display: block;
+  position: relative;
+  -webkit-transition: all 0.4s ease-in;
+  transition: all 0.4s ease-in;
+}
+
+.hovereffect:hover img {
+  filter: url("/images/omnifood.png");
+  filter: rgba(0, 0, 0, 0.6);
+  filter: blur(2px);
+  -webkit-filter: blur(2px);
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+.hovereffect p {
+  text-align: center;
+  position: relative;
+  font-size: 16px;
+  /* padding: 10px; */
+  /* background: rgba(0, 0, 0, 0.6); */
+} */
+
+/* .hovereffect a.link-custom {
+  display: inline-block;
+  text-decoration: none;
+  padding: 7px 14px;
+  border: 1px solid #fff;
+  margin: 50px 0 0 0;
+  background-color: transparent;
+}
+
+.hovereffect a.link-custom:hover {
+  box-shadow: 0 0 5px #fff;
+}
+
+.hovereffect a.link-custom,
+.hovereffect p {
+  -webkit-transform: scale(0.7);
+  -ms-transform: scale(0.7);
+  transform: scale(0.7);
+  -webkit-transition: all 0.4s ease-in;
+  transition: all 0.4s ease-in;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  color: #fff;
+}
+
+.hovereffect:hover a.link-custom,
+.hovereffect:hover p {
+  opacity: 1;
+  filter: alpha(opacity=100);
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+} */
